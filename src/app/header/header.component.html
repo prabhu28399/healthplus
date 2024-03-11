@@ -1,0 +1,37 @@
+<header *ngIf="!isAdminPanel">
+    <div id="main">
+        <img id="logo" src="assets/img/logo.png" alt="">
+
+        <nav>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul>
+                <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+                        ariaCurrentWhenActive="page">Home</a></li>
+
+                <li><a routerLink="/about" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+                        ariaCurrentWhenActive="page">About</a></li>
+
+                <li><a routerLink="/doctor" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+                        ariaCurrentWhenActive="page">Find Doctor</a></li>
+
+                <li><a routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+                        ariaCurrentWhenActive="page">Contact</a></li>
+
+                <li><a routerLink="/signup" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+                        ariaCurrentWhenActive="page">Sign Up</a></li>
+
+                <li><a routerLink="/login" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"
+                        ariaCurrentWhenActive="page">LogIn</a></li>
+
+                <li><a routerLink="/helpline" routerLinkActive="action" [routerLinkActiveOptions]="{exact:true}"
+                        ariaCurrentWhenActive="page" id="helpLine">Helpline Number</a></li>
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>

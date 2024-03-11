@@ -1,0 +1,458 @@
+
+#poster{
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://medicahospitals.in/wp-content/uploads/2022/03/search-your-doctor.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#heading{
+    width: 90%;
+    height: 9vh;
+    background-color:#209AD3;
+    margin-left: 5%;
+    margin-top: 3%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#heading h1{
+    font-size: 25px;
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+#doctorbody{
+    width: 90%;
+    height: 500vh;
+    /* background-color: rgb(238, 170, 170); */
+    margin-left: 5%;
+    display: flex;
+}
+#left{
+    width: 70%;
+    /* height: 200vh; */
+    /* background-color: #6ea3bc; */
+    position: relative;
+    display: flex;
+}
+
+#doctor1{
+    width:100%;
+    height: 35vh;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 1%;
+    /* left: 2%; */
+    display: flex;
+    
+}
+#docleft{
+    width: 70%;
+    height: 35vh;
+    /* background-color: red; */
+    display: flex;
+    border: 1px solid #22222232;
+
+}
+#img{
+    width: 40%;
+    height: 34.6vh;
+    /* background-color:#9dd5f9; */
+}
+#contant{
+    width: 60%;
+    height: 35vh;
+    /* background-color: rgb(180, 163, 126); */
+}
+#contant h2{
+    font-size: 21px;
+    font-weight: bold;
+    color: #0e587b;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+#contant p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+#contant button{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color:#fbd802;
+    padding: 4px 20px;
+    border-radius: 50px;
+    font-family: sans-serif;
+}
+#contant button:hover{
+    background-color: #fff;
+    border: 1px solid #fbd802;
+}
+#img img{
+    width: 50%;
+    margin-left: 50px;
+    padding-top: 0px;
+    background-color:#9dd5f9;
+    margin-top: 40px;
+    box-shadow: 1px 1px 18px rgba(226, 160, 160, 0.696);
+    border-radius: 5px;
+}
+#docright{
+    width: 30%;
+    height: 35vh;
+    /* background-color: rgb(186, 125, 125); */
+    border: 1px solid #22222232;
+}
+#docright p{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;  
+}
+#docright button{
+    font-size: 15px;
+    font-weight:200;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color:#fbd802;
+    padding: 12px 30px 12px 22px;
+    border-radius: 50px;
+    font-family: sans-serif;
+}
+#docright button:hover{
+    background-color: #2cabe6;
+    color: #fff;
+}
+#doctor2{
+    width:100%;
+    height: 35vh;
+    background-color:#fff;
+    position: absolute;
+    top: 8%;
+    /* left: 2%; */
+    display: flex;
+}
+#doctor3{
+    width:100%;
+    height: 35vh;
+    background-color:#fff;
+    position: absolute;
+    top: 15%;
+    /* left: 2%; */
+    display: flex;
+}
+#doctor4{
+    width:100%;
+    height: 35vh;
+    background-color:#fff;
+    position: absolute;
+    top: 22%;
+    /* left: 2%; */
+    display: flex;
+}
+#doctor5{
+    width:100%;
+    height: 35vh;
+    background-color:#fff;
+    position: absolute;
+    top: 29%;
+    /* left: 2%; */
+    display: flex;
+}
+#doctor6{
+    width:100%;
+    height: 35vh;
+    background-color:#fff;
+    position: absolute;
+    top: 36%;
+    /* left: 2%; */
+    display: flex;
+}
+#doctor7{
+    width:100%;
+    height: 35vh;
+    background-color:#fff;
+    position: absolute;
+    top: 43%;
+    /* left: 2%; */
+    display: flex;
+}
+#doctor8{
+    width:100%;
+    height: 35vh;
+    background-color:#fff;
+    position: absolute;
+    top: 50%;
+    /* left: 2%; */
+    display: flex;
+}
+#doctor9{
+    width:100%;
+    height: 35vh;
+    background-color:#fff;
+    position: absolute;
+    top: 57%;
+    /* left: 2%; */
+    display: flex;
+}
+#doctor10{
+    width:100%;
+    height: 35vh;
+    background-color:#fff;
+    position: absolute;
+    top: 64%;
+    /* left: 2%; */
+    display: flex;
+}
+#doctor11{
+    width:100%;
+    height: 35vh;
+    background-color:#fff;
+    position: absolute;
+    top: 71%;
+    /* left: 2%; */
+    display: flex;
+}
+#doctor12{
+    width:100%;
+    height: 35vh;
+    background-color:#fff;
+    position: absolute;
+    top: 78%;
+    /* left: 2%; */
+    display: flex;
+}
+#doctor13{
+    width:100%;
+    height: 35vh;
+    background-color:#fff;
+    position: absolute;
+    top: 85%;
+    /* left: 2%; */
+    display: flex;
+}
+#doctor14{
+    width:100%;
+    height: 35vh;
+    background-color:#fff;
+    position: absolute;
+    top: 92%;
+    /* left: 2%; */
+    display: flex;
+}
+
+
+
+#right{
+    margin-left: 30px;
+    width: 28%;
+    height: 100vh;
+    /* background-color: #b9ec86; */
+    margin-top: 2.5vw;
+    border: 1px solid #fbd802;
+}
+#checkup{
+    width: 100%;
+    height: 10vh;
+    background-color:#fbd802;
+}
+#checkup h1{
+    font-size: 28px;
+    padding: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-align: center;
+}
+#symptoms{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #9dd5f9; */
+}
+#box{
+    width: 100%;
+    height: 20vh;
+    /* background-color: red; */
+    display: flex;
+}
+#leftbox{
+    width: 50%;
+    height: 20vh;
+    /* background-color: red; */
+}
+#leftbox img{
+    margin-left: 3vw;
+}
+#leftbox a{
+    margin-left: 4vw;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+
+
+#rightbox{
+    width: 50%;
+    height: 20vh;
+    /* background-color: rgb(86, 68, 68); */
+}
+#rightbox img{
+    margin-left: 3vw;
+}
+#rightbox a{
+    margin-left: 2vw;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+#leftbox a:hover{
+    color: #c5720d;
+}
+#rightbox a:hover{
+    color: #c5720d;
+}
+#box1{
+    display: flex;
+    margin-top: 1vw;
+}
+#box2{
+    display: flex;
+    margin-top: 1vw;
+}
+#box3{
+    display: flex;
+    margin-top: 1vw;
+}
+#pic{
+    display: none;
+}
+
+@media (max-width:500px) {
+    #poster{
+        display: none;
+    } 
+    #pic{
+        display: block;
+        width: 50%;
+        margin-left: 25vw;
+        margin-top: 8vw;
+    }
+    
+    #doctor1{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    #docleft{
+        width: 100%;
+        position: absolute;
+        left: 13vw;
+        display: flex;
+        flex-direction: column;
+    }
+    #img{
+        width: 122%;
+    }
+    h2{
+        text-wrap: nowrap;
+    }
+    #docright{
+        width: 100%;
+        position: absolute;
+        top: 100vw;
+        left: 13vw;
+        display: none;
+    }
+    p{
+        width: 100%;
+    }
+    #contant{
+        margin-left: 7vw;
+    }
+    #doctor2{
+        width: 100%;
+        height: 100vh;
+        margin-top: 70vw;
+    }
+    #doctor3{
+        width: 100%;
+        height: 100vh;
+        margin-top: 130vw;
+    }
+    #doctor4{
+        width: 100%;
+        height: 100vh;
+        margin-top: 190vw;
+    }
+    #doctor5{
+        width: 100%;
+        height: 100vh;
+        margin-top: 245vw;
+    }
+    #doctor6{
+        width: 100%;
+        height: 100vh;
+        margin-top: 310vw;
+    }
+    #doctor7{
+        width: 100%;
+        height: 100vh;
+        margin-top: 365vw;
+    }
+    #doctor8{
+        width:auto;
+        height: auto;
+        margin-top: 390vw;
+        margin-bottom: 100vw;
+    }
+    #doctor9{
+        width: 100%;
+        height: 100vh;
+        margin-top: 390vw;
+        margin-bottom: 100vw;
+        display: none;
+    }
+    #doctor10{
+        width: 100%;
+        height: 100vh;
+        margin-top: 390vw;
+        margin-bottom: 100vw;
+        display: none;
+    }
+    #doctor11{
+        width: 100%;
+        height: 100vh;
+        margin-top: 390vw;
+        margin-bottom: 100vw;
+        display: none;
+    }
+    #doctor12{
+        width: 100%;
+        height: 100vh;
+        margin-top: 390vw;
+        margin-bottom: 100vw;
+        display: none;
+    }
+    #doctor13{
+        width: 100%;
+        height: 100vh;
+        margin-top: 390vw;
+        margin-bottom: 100vw;
+        display: none;
+    }
+    #doctor14{
+        width: 100%;
+        height: 100vh;
+        margin-top: 390vw;
+        margin-bottom: 100vw;
+        display: none;
+    }
+    #right{
+        display: none;
+    }
+}

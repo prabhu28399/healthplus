@@ -1,0 +1,363 @@
+#poster{
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://medicahospitals.in/wp-content/uploads/2022/01/find-doctor-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* #main{
+    width: 100%;
+    height: 100vh;
+    background-color: #dadada58;
+    position: relative;
+} */
+#profile{
+    width: 90%;
+    height: 45vh;
+    /* background-color: red; */
+    /* position: absolute; */
+    margin-left: 5%;
+    display: flex;
+}
+#pro1{
+    width: 25%;
+    height: 100vh;
+    /* background-color: rgb(59, 69, 66); */
+}
+#pro1 img{
+    width:80%;
+    margin:10px 5px ;
+    box-shadow: 3px 3px 10px gray;
+}
+#pro2{
+    width: 33.5%;
+    height: 50vh;
+    /* background-color: rgb(91, 133, 121); */
+}
+#pro2 h1{
+    font-size: 35px;
+    font-family: sans-serif;
+    color:#ed242c;
+}
+#pro2 h2{
+    font-size: 22px;
+    font-family: sans-serif;
+    color:#1d9ad6;
+
+}
+#desi{
+    font-family: sans-serif;
+    color:black;
+    font-weight: bold;
+
+}
+#edu{
+    margin-top: 15%;
+    font-family: sans-serif;
+    color:black;
+    font-size: 16px;
+
+}
+#pro3{
+    width: 33%;
+    height: 50vh;
+    /* background-color: rgb(192, 215, 208); */
+}
+#pro3 h2{
+    font-size: 22px;
+    font-family: sans-serif;
+    color:#1d9ad6;
+
+}
+#opd{
+    margin-top: 10%;
+}
+#heading{
+    margin-left: 5%;
+    /* position: absolute; */
+    margin-top: 4%;
+    width: 40%;
+    background-color:#1d9ad6;
+    color: #fff;
+    padding: 10px 12px;
+    font-size: 28px;
+    font-family: sans-serif;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    letter-spacing: 1px;
+}
+#profile2{
+    width: 90%;
+    height: 70vh;
+    /* background-color: red; */
+    /* position: absolute; */
+    margin-left: 5%;
+    display: flex;
+}
+#p2left{
+    width: 40%;
+    height: 60vh;
+    /* background-color: red; */
+}
+#p2left h2{
+    font-size: 21px;
+    color: #1d9ad6;
+    font-weight: 500;
+}
+#p2right{
+    width: 60%;
+    height: 60vh;
+    /* background-color: rgb(141, 118, 118); */
+}
+
+#p2right h2{
+    font-size: 23px;
+    color:#222;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+#p2right ul li{
+    font-size: 17px;
+    color:#222;
+    /* font-weight: 500; */
+    font-family: sans-serif;
+
+}
+ul{
+    list-style-type:disc;
+    margin-top: 10px;
+}
+
+form {
+    /* background-color:transparent; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 8px;
+    /* padding: 20px; */
+    width: 400px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+
+  textarea:focus {
+    border-color: #4CAF50;
+  }
+
+  button{
+    background-color: #ffcf06;
+    color:#222;
+    cursor: pointer;
+    width: 40%;
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+
+  button:hover {
+    background-color:#1d9ad6;
+    color: #fff;
+  }
+
+  h1{
+    margin-top: 30px;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+  #otherDoctor{
+    width: 100%;
+    height:40vh;
+    /* background-color: red; */
+    display: flex;
+  }
+  #otherDoc1{
+    width: 33%;
+    height: 40vh;
+    /* background-color: #ffcf06; */
+    display: flex;
+  }
+  #img img{
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 50px;
+  }
+  #contant{
+    margin-top: 30px;
+    margin-left: 70px;
+    position: relative;
+    
+  }
+  #contant h2{
+    font-size: 21px;
+    font-family: sans-serif;
+    margin-top: 10px;
+  }
+  #surgical{
+    font-weight: bold;
+  }
+  #vp{
+    font-size: 15px;
+    color: blue;
+    border-bottom: 1px solid blue;
+    position: absolute;
+    top: 150px;
+  }
+  #vp:hover{
+    border-bottom: none;
+    color: rgb(12, 12, 183);
+  }
+  #otherDoc2{
+    width: 33%;
+    height: 40vh;
+    /* background-color: #ffcf06; */
+    display: flex;
+  }
+  #otherDoc3{
+    width: 33%;
+    height: 40vh;
+    /* background-color: #ffcf06; */
+    display: flex;
+  }
+  #vall{
+    width: 100%;
+    height: 100vh;
+    color: blue;
+    border-bottom: 1px solid blue;
+    margin-left: 45%;
+  }
+  #vall:hover{
+    border-bottom: none;
+    color: rgb(12, 12, 183);
+  }
+
+
+
+
+
+
+
+  #posimg{
+    display: none;
+  }
+    @media (max-width:500px) {
+      #poster{
+        display: none;
+      }
+      #posimg{
+        display: block;
+        width: 100%;
+      }
+      #desi{
+        width: 80%;
+      }
+      #heading{
+        width: 98%;
+        margin-left: 1vw;
+      }
+      #profile{
+        width: 90%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+      #pro1{
+        width: 60%;
+      }
+      #pro2{
+        width: 100%;
+        position:absolute;
+        top: 50vw;
+      }
+      #pro2 h1{
+        font-size: 6vw;
+        margin-left: 1vw;
+      }
+      #edu{
+        margin-top: -1vw;
+        color: green;
+      }
+      #pro3{
+        margin-top: -75vw;
+      }
+      #opd p{
+        width: 100%;
+        text-wrap: nowrap;
+      }
+  
+       #profile2{
+        width: 90%;
+        height: 165vh;
+        display: flex;
+        flex-direction: column;
+      }
+      #p2left{
+        width: 100%;
+        margin-top: -35vw;
+      }
+      form{
+        width: 100%;
+      }
+      form input{
+        width: 80%;
+      }
+      form textarea{
+        width: 80%;
+      }
+      form button{
+        width: 40%;
+        background-color: rgba(13, 241, 13, 0.391);
+      } 
+      #p2right{
+        width: 100%;
+        margin-top: 15vw;
+      }
+      #p2right h2{
+        text-align: center;
+      }
+      ul{
+        list-style-type:lower-roman;
+        padding: 2vw;
+      }
+      ul li{
+        text-align: justify;
+        padding: 3vw;
+      }
+      
+  
+      #otherDoctor{
+        width: 100%;
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+  
+      }
+      #otherDoc1{
+        width: 100%;
+        margin-left: -9vw;
+      }
+      #otherDoc2{
+        width: 100%;
+        margin-left: -9vw;
+      }
+      #otherDoc3{
+        width: 100%;
+        margin-left: -9vw;
+      }
+      #contant h2{
+        color: red;
+      }
+      #vp{
+        margin-top: 3vw;
+      }
+      
+    }

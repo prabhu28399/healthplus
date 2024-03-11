@@ -1,0 +1,62 @@
+<br><br>
+    <div id="poster"></div> 
+
+    <div class="container">
+        <h2>Request an Appointment</h2><br>
+        <form action="#" method="post">
+            <label for="patientName">Patient Name:</label>
+            <input type="text" id="patientName" name="patientName" required>
+
+            <label for="contactNumber">Contact Number:</label>
+            <input type="tel" id="contactNumber" name="contactNumber" required>
+
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- <label>Visitor Type:</label>
+            <input type="radio" id="firstTimeVisitor" name="visitorType" value="firstTime" checked>
+            <label for="firstTimeVisitor">First Time Visitor</label>
+            <input type="radio" id="repeatVisitor" name="visitorType" value="repeat"> <label for="repeatVisitor">Repeat Visitor</label>
+            -->
+
+            <label for="selectDepartment">Select Department:</label>
+            <select id="selectDepartment" name="selectDepartment" required>
+                <!-- Add department options here -->
+                <option value="medicine">---Select any ---</option>
+                <option value="medicine">Medicine</option>
+                <option value="surgery">Surgery</option>
+                <option value="cardiology">Cardiology</option>
+                <option value="dermatology">Dermatology</option>
+                <option value="gastroenterology">Gastroenterology</option>
+                <option value="neurology">Neurology</option>
+                <option value="ophthalmology">Ophthalmology</option>
+                <option value="orthopedics">Orthopedics</option>
+                <option value="urology">Urology</option>
+                <option value="endocrinology">Endocrinology</option>
+                <option value="ENT">Ear, Nose, and Throat (ENT)</option>
+                <option value="pulmonology">Pulmonology</option>
+                <option value="oncology">Oncology</option>
+                <option value="psychiatry">Psychiatry</option>
+                <option value="nephrology">Nephrology</option>
+                <option value="rheumatology">Rheumatology</option>
+                <option value="hematology">Hematology</option>
+                <option value="allergyImmunology">Allergy and Immunology</option>
+                <option value="infectiousDiseases">Infectious Diseases</option>
+                <option value="physicalTherapy">Physical Therapy</option>
+                <option value="diagnosticImaging">Diagnostic Imaging</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <!-- <label for="doctorPreference">Doctor Preference:</label>
+            <input type="checkbox" id="doctorPreference" name="doctorPreference">
+            <label for="doctorPreference">Yes (Specify Preferences)</label> -->
+
+            <label for="preferredDate">Preferred Date:</label>
+            <input type="date" id="preferredDate" name="preferredDate" required>
+
+            <label for="problemDescription">Tell Us About Your Problem:</label>
+            <textarea id="problemDescription" name="problemDescription" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>

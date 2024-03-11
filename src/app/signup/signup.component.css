@@ -1,0 +1,105 @@
+#main{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+}
+#left{
+    width: 50%;
+    height: 65vh;
+    background-image: url(https://pathwayport.com/saasland/images/login@4x.png);
+    background-size: cover;
+    /* background-position: center; */
+    margin-top:10%;
+}
+#right{
+    width: 50%;
+    height: 100vh;
+    /* background-color: rgb(59, 51, 51); */
+    margin-top: 7%;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #13BFA9;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #099683;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width:500px) {
+    #main{
+        width: 100%;
+        height: 80vh;
+    }
+    #left{
+        display: none;
+    }
+    #right{
+        width: 100%;
+    }
+    h2{
+        font-size: 5vw;
+        color: #3498db;
+        font-weight:normal;
+    }
+
+    label{
+        color: red;
+    }
+}

@@ -1,0 +1,70 @@
+/* #main{
+    width: 100%;
+    height: 100vh;
+} */
+#poster{
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://medicahospitals.in/wp-content/uploads/2022/03/Request-an-appointment.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+}
+
+h2 {
+    height: 7vh;
+    /* text-align: center; */
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 25px;
+    background-color: #209AD3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 8px;
+    padding-left: 15px;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color:#45a049;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #209AD3;;
+}

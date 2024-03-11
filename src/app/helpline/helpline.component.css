@@ -1,0 +1,52 @@
+
+
+  div{
+    width: 100%;
+    height: 8vh;
+    background-color: #0E27A8;
+  }
+  div h1{
+    color: #fff;
+    text-align: center;
+    text-align: center;
+    font-size:26px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 12px ;
+  }
+  .contact-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color:green;
+    color: #fff;
+  }
+  
+  tbody tr:hover {
+    background-color: #fff;
+  }
+  
+  /* Add more styling as needed */
+  
