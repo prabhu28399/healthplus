@@ -1,0 +1,102 @@
+/* Custom CSS */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    color: black;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+.row {
+    height: 100%;
+}
+
+.sidebar {
+    background-color: white;
+    padding-top: 20px;
+    text-align: center;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.sidebar img {
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+
+.sidebar img:hover {
+    animation-play-state: running;
+}
+
+@keyframes animateComputer {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.main {
+    margin-left: 250px;
+    padding: 20px;
+    height: 100%;
+    background-color: #e95d5d;
+}
+
+@media (max-width: 768px) {
+    .main {
+        margin-left: 0;
+    }
+}
+
+.dashboard-circle {
+    color: aqua;
+    border: 1px solid whitesmoke;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.dashboard-circle p {
+    margin: 10px;
+}
+
+.profile {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.dropdown a {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+}

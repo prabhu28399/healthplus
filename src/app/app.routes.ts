@@ -45,7 +45,7 @@ export const routes: Routes = [
     { 'path': 'dr-sasidhar', 'title': 'dr-sasidhar', component: DrSasidharComponent },
     { 'path': 'dr-revanth', 'title': 'dr-revanth', component: DrRevanthComponent },
     { 'path': 'dr-srinivasa', 'title': 'dr-srinivasa', component: DrSrinivasaComponent },
-    { path: 'admin', component: AdminPanelComponent },
+    { path: 'admin', 'title': 'Admin', component: AdminPanelComponent },
 
 ];
 
